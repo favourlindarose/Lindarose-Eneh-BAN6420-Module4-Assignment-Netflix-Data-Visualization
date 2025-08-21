@@ -14,7 +14,7 @@ This project provides a comprehensive analysis of Netflix shows and movies data 
   - Ratings distribution  
 - **R Integration**: Implementing visualizations in R  
 
----
+--
 
 ## Files Included
 - `netflix_analysis.py`: Python implementation of the analysis  
