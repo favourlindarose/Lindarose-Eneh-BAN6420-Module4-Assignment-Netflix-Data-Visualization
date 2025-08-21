@@ -1,0 +1,108 @@
+=== NETFLIX DATA VISUALIZATION IN R ===
+
+Analysis date: 2025-08-20 22:41:35 
+
+1. Loading cleaned data...
+Dataset loaded successfully with 100 rows and 14 columns
+
+2. Data Exploration:
+Dataset structure:
+spc_tbl_ [100 × 14] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
+ $ show_id         : chr [1:100] "s1" "s2" "s3" "s4" ...
+ $ type            : chr [1:100] "Movie" "TV Show" "TV Show" "Movie" ...
+ $ title           : chr [1:100] "Title 1" "Title 2" "Title 3" "Title 4" ...
+ $ director        : chr [1:100] "John Doe" "Unknown" "Jane Smith" "Unknown" ...
+ $ cast            : chr [1:100] "Actor A, Actor B" "Actor B, Actor C" "Actor C, Actor D" "Actor D, Actor E" ...
+ $ country         : chr [1:100] "Unknown" "Nigeria" "USA" "Unknown" ...
+ $ date_added      : Date[1:100], format: "2018-07-15" "2022-02-02" ...
+ $ release_year    : num [1:100] 2017 2009 2017 1997 1990 ...
+ $ rating          : chr [1:100] "PG" "TV-Y" "TV-14" "PG-13" ...
+ $ duration        : chr [1:100] "167 min" "1 Seasons" "111 min" "157 min" ...
+ $ listed_in       : chr [1:100] "Thriller, Comedies" "Kids' TV, Dramas" "Comedies, Romantic Movies" "Thriller, Action" ...
+ $ date_added_valid: logi [1:100] TRUE TRUE TRUE TRUE TRUE TRUE ...
+ $ duration_value  : num [1:100] 167 1 111 157 3 160 112 6 171 3 ...
+ $ duration_type   : chr [1:100] "min" "Seasons" "min" "min" ...
+ - attr(*, "spec")=
+  .. cols(
+  ..   show_id = col_character(),
+  ..   type = col_character(),
+  ..   title = col_character(),
+  ..   director = col_character(),
+  ..   cast = col_character(),
+  ..   country = col_character(),
+  ..   date_added = col_date(format = ""),
+  ..   release_year = col_double(),
+  ..   rating = col_character(),
+  ..   duration = col_character(),
+  ..   listed_in = col_character(),
+  ..   date_added_valid = col_logical(),
+  ..   duration_value = col_double(),
+  ..   duration_type = col_character()
+  .. )
+ - attr(*, "problems")=<externalptr> 
+NULL
+
+Summary statistics:
+   show_id              type              title             director        
+ Length:100         Length:100         Length:100         Length:100        
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+     cast             country            date_added          release_year 
+ Length:100         Length:100         Min.   :2015-01-07   Min.   :1990  
+ Class :character   Class :character   1st Qu.:2016-09-28   1st Qu.:1997  
+ Mode  :character   Mode  :character   Median :2018-06-25   Median :2006  
+                                       Mean   :2018-09-04   Mean   :2006  
+                                       3rd Qu.:2020-03-14   3rd Qu.:2015  
+                                       Max.   :2022-10-26   Max.   :2022  
+    rating            duration          listed_in         date_added_valid
+ Length:100         Length:100         Length:100         Mode:logical    
+ Class :character   Class :character   Class :character   TRUE:100        
+ Mode  :character   Mode  :character   Mode  :character                   
+                                                                          
+                                                                          
+                                                                          
+ duration_value   duration_type     
+ Min.   :  1.00   Length:100        
+ 1st Qu.: 61.00   Class :character  
+ Median : 93.50   Mode  :character  
+ Mean   : 88.99                     
+ 3rd Qu.:133.25                     
+ Max.   :179.00                     
+
+Content type distribution:
+
+  Movie TV Show 
+     70      30 
+
+Rating distribution:
+
+    G NC-17    PG PG-13     R TV-14 TV-MA TV-PG  TV-Y TV-Y7    UR 
+    4     3    11    10    12    25    12    10     5     5     3 
+
+3. Creating visualizations...
+-> Creating most watched genres visualization...
+-> Creating ratings distribution visualization...
+-> Creating content type visualization...
+4. Additional Insights:
+
+Content Type Distribution:
+- Movies: 70 %
+- TV Shows: 30 %
+
+Most common rating: TV-14 
+
+Recent Content Analysis:
+- Content from last 5 years: 11 %
+- Average content age: 19.1 years
+
+5. Files Generated:
+- most_watched_genres_r.png: Top genres visualization
+- ratings_distribution_r.png: Ratings distribution
+- content_type_r.png: Content type pie chart
+- r_analysis_output.txt: This analysis report
+
+=== R ANALYSIS COMPLETED SUCCESSFULLY ===
+All visualizations have been saved as PNG files.

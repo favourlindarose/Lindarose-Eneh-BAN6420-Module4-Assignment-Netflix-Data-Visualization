@@ -1,0 +1,130 @@
+=== Netflix Data Analysis ===
+
+Analysis date: 2025-08-20 22:21:33
+
+>>> Netflix_shows_movies.csv not found. Creating a sample dataset...
+
+>>> Sample dataset with 100 entries created and saved as Netflix_shows_movies.csv
+
+>>> Dataset loaded successfully with 100 rows and 11 columns
+
+>>> Checking missing values before cleaning:
+show_id         0
+type            0
+title           0
+director        0
+cast            0
+country         0
+date_added      0
+release_year    0
+rating          0
+duration        0
+listed_in       0
+dtype: int64 
+
+>>> Dropped 0 rows with missing ratings
+
+>>> Data cleaned and saved to Netflix_shows_movies_cleaned.csv
+
+>>> Dataset Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 14 columns):
+ #   Column            Non-Null Count  Dtype         
+---  ------            --------------  -----         
+ 0   show_id           100 non-null    object        
+ 1   type              100 non-null    object        
+ 2   title             100 non-null    object        
+ 3   director          100 non-null    object        
+ 4   cast              100 non-null    object        
+ 5   country           100 non-null    object        
+ 6   date_added        100 non-null    datetime64[ns]
+ 7   release_year      100 non-null    int64         
+ 8   rating            100 non-null    object        
+ 9   duration          100 non-null    object        
+ 10  listed_in         100 non-null    object        
+ 11  date_added_valid  100 non-null    bool          
+ 12  duration_value    100 non-null    int64         
+ 13  duration_type     100 non-null    object        
+dtypes: bool(1), datetime64[ns](1), int64(2), object(10)
+memory usage: 10.4+ KB
+None 
+
+>>> Summary Statistics:
+       show_id   type    title director              cast  ...   duration                       listed_in  date_added_valid duration_value duration_type
+count      100    100      100      100               100  ...        100                             100               100     100.000000           100
+unique     100      2      100        7                26  ...         67                              46                 1            NaN             2
+top         s1  Movie  Title 1  Unknown  Actor A, Actor B  ...  3 Seasons  International Movies, Kids' TV              True            NaN           min
+freq         1     70        1       27                 4  ...          7                               5               100            NaN            77
+mean       NaN    NaN      NaN      NaN               NaN  ...        NaN                             NaN               NaN      88.990000           NaN
+min        NaN    NaN      NaN      NaN               NaN  ...        NaN                             NaN               NaN       1.000000           NaN
+25%        NaN    NaN      NaN      NaN               NaN  ...        NaN                             NaN               NaN      61.000000           NaN
+50%        NaN    NaN      NaN      NaN               NaN  ...        NaN                             NaN               NaN      93.500000           NaN
+75%        NaN    NaN      NaN      NaN               NaN  ...        NaN                             NaN               NaN     133.250000           NaN
+max        NaN    NaN      NaN      NaN               NaN  ...        NaN                             NaN               NaN     179.000000           NaN
+std        NaN    NaN      NaN      NaN               NaN  ...        NaN                             NaN               NaN      56.453162           NaN
+
+[11 rows x 14 columns] 
+
+>>> Type Distribution (Movie vs TV Show):
+type
+Movie      70
+TV Show    30
+Name: count, dtype: int64 
+
+>>> Ratings Distribution:
+rating
+TV-14    25
+TV-MA    12
+R        12
+PG       11
+PG-13    10
+TV-PG    10
+TV-Y      5
+TV-Y7     5
+G         4
+NC-17     3
+UR        3
+Name: count, dtype: int64 
+
+>>> Top 10 Countries with most content:
+country
+USA          15
+UK           14
+Unknown      12
+France       11
+Nigeria      10
+Canada        9
+Germany       8
+India         7
+Japan         7
+Australia     7
+Name: count, dtype: int64 
+
+>>> Content added by year:
+year_added
+2015    11
+2016    18
+2017    12
+2018    17
+2019    13
+2020     8
+2021    12
+2022     9
+Name: count, dtype: int64 
+
+>>> Generating plots...
+
+>>> Plots saved: type_distribution.png, ratings_distribution.png, top_genres.png, content_added_by_year.png, duration_analysis.png
+
+>>> Additional Insights:
+
+>>> Movies represent 70.0% of content, TV Shows 30.0%
+
+>>> Most common rating: TV-14
+
+>>> Average content age: 19.1 years
+
+>>> 11.0% of content is from the last 5 years
+
+=== Analysis Completed ===

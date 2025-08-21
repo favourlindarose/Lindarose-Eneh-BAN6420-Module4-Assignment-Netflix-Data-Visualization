@@ -1,0 +1,101 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,date_added_valid,duration_value,duration_type
+s1,Movie,Title 1,John Doe,"Actor A, Actor B",Unknown,2018-07-15,2017,PG,167 min,"Thriller, Comedies",True,167,min
+s2,TV Show,Title 2,Unknown,"Actor B, Actor C",Nigeria,2022-02-02,2009,TV-Y,1 Seasons,"Kids' TV, Dramas",True,1,Seasons
+s3,TV Show,Title 3,Jane Smith,"Actor C, Actor D",USA,2017-07-22,2017,TV-14,111 min,"Comedies, Romantic Movies",True,111,min
+s4,Movie,Title 4,Unknown,"Actor D, Actor E",Unknown,2021-09-26,1997,PG-13,157 min,"Thriller, Action",True,157,min
+s5,Movie,Title 5,Ridley Scott,"Actor E, Actor F",Nigeria,2016-06-26,1990,PG-13,3 Seasons,"International Movies, Documentaries",True,3,Seasons
+s6,Movie,Title 6,Jane Smith,"Actor F, Actor G",France,2018-06-17,1992,TV-Y,160 min,"Thriller, Dramas",True,160,min
+s7,Movie,Title 7,Alex Johnson,"Actor G, Actor H",Unknown,2021-10-06,2002,TV-14,112 min,"Dramas, Comedies",True,112,min
+s8,TV Show,Title 8,Unknown,"Actor H, Actor I",Nigeria,2018-06-11,2017,TV-Y7,6 Seasons,"Comedies, Action",True,6,Seasons
+s9,Movie,Title 9,Jane Smith,"Actor I, Actor J",UK,2022-05-01,2014,NC-17,171 min,"International Movies, Dramas",True,171,min
+s10,TV Show,Title 10,John Doe,"Actor J, Actor K",Germany,2018-05-12,2022,TV-14,3 Seasons,"Action, Comedies",True,3,Seasons
+s11,Movie,Title 11,Jane Smith,"Actor K, Actor L",UK,2018-05-07,1995,UR,6 Seasons,"Comedies, Action",True,6,Seasons
+s12,TV Show,Title 12,John Doe,"Actor L, Actor M",Germany,2022-06-13,2021,TV-14,7 Seasons,"Romantic Movies, Comedies",True,7,Seasons
+s13,TV Show,Title 13,Ridley Scott,"Actor M, Actor N",Canada,2017-04-15,2010,TV-14,62 min,"Action, Comedies",True,62,min
+s14,Movie,Title 14,Chris Nolan,"Actor N, Actor O",Canada,2018-07-08,2005,TV-14,99 min,"Thriller, Documentaries",True,99,min
+s15,Movie,Title 15,Unknown,"Actor O, Actor P",Canada,2020-02-10,2010,PG,83 min,"Documentaries, Action",True,83,min
+s16,Movie,Title 16,Chris Nolan,"Actor P, Actor Q",France,2022-03-17,2000,TV-PG,2 Seasons,"Comedies, Kids' TV",True,2,Seasons
+s17,Movie,Title 17,Chris Nolan,"Actor Q, Actor R",UK,2021-03-26,2008,TV-14,134 min,"Dramas, Thriller",True,134,min
+s18,Movie,Title 18,John Doe,"Actor R, Actor S",Germany,2016-10-05,2009,PG-13,65 min,"International Movies, Documentaries",True,65,min
+s19,Movie,Title 19,Chris Nolan,"Actor S, Actor T",Nigeria,2021-05-23,2007,NC-17,153 min,"Thriller, Comedies",True,153,min
+s20,Movie,Title 20,Unknown,"Actor T, Actor U",USA,2019-09-12,2003,TV-MA,3 Seasons,"Thriller, Comedies",True,3,Seasons
+s21,Movie,Title 21,Chris Nolan,"Actor U, Actor V",Nigeria,2016-01-26,2004,TV-14,125 min,"Documentaries, Romantic Movies",True,125,min
+s22,Movie,Title 22,Chris Nolan,"Actor V, Actor W",USA,2016-01-15,2020,TV-PG,67 min,"Romantic Movies, Thriller",True,67,min
+s23,Movie,Title 23,Jane Smith,"Actor W, Actor X",India,2015-06-16,1990,TV-Y,104 min,"International Movies, Comedies",True,104,min
+s24,Movie,Title 24,John Doe,"Actor X, Actor Y",Nigeria,2019-08-13,1992,PG-13,129 min,"International Movies, Kids' TV",True,129,min
+s25,Movie,Title 25,Jane Smith,"Actor Y, Actor Z",Unknown,2019-01-16,2005,TV-Y7,127 min,"Romantic Movies, International Movies",True,127,min
+s26,TV Show,Title 26,Alex Johnson,"Actor Z, Actor [",Unknown,2020-07-05,2012,TV-Y,156 min,"Thriller, Documentaries",True,156,min
+s27,Movie,Title 27,Chris Nolan,"Actor A, Actor B",Japan,2018-07-03,2000,PG,71 min,"Documentaries, Action",True,71,min
+s28,Movie,Title 28,Chris Nolan,"Actor B, Actor C",UK,2017-10-16,2001,PG,2 Seasons,"Thriller, Documentaries",True,2,Seasons
+s29,Movie,Title 29,John Doe,"Actor C, Actor D",USA,2015-05-22,1999,TV-14,97 min,"Thriller, Kids' TV",True,97,min
+s30,Movie,Title 30,Unknown,"Actor D, Actor E",USA,2021-12-05,2021,R,70 min,"Kids' TV, Dramas",True,70,min
+s31,Movie,Title 31,Alex Johnson,"Actor E, Actor F",UK,2020-01-14,2005,TV-MA,136 min,"Dramas, International Movies",True,136,min
+s32,Movie,Title 32,Jane Smith,"Actor F, Actor G",France,2018-04-05,1997,TV-14,92 min,"Action, Romantic Movies",True,92,min
+s33,Movie,Title 33,John Doe,"Actor G, Actor H",Japan,2022-10-26,2001,R,179 min,"Romantic Movies, Kids' TV",True,179,min
+s34,TV Show,Title 34,Jane Smith,"Actor H, Actor I",France,2018-05-07,2013,TV-14,7 Seasons,"Thriller, Romantic Movies",True,7,Seasons
+s35,TV Show,Title 35,Ridley Scott,"Actor I, Actor J",France,2021-01-05,2017,PG-13,61 min,"Kids' TV, Romantic Movies",True,61,min
+s36,TV Show,Title 36,Jane Smith,"Actor J, Actor K",France,2020-10-10,1997,TV-14,61 min,"Thriller, Action",True,61,min
+s37,Movie,Title 37,Unknown,"Actor K, Actor L",UK,2016-05-04,2017,PG-13,7 Seasons,"Kids' TV, Romantic Movies",True,7,Seasons
+s38,Movie,Title 38,Unknown,"Actor L, Actor M",France,2016-04-10,2015,TV-PG,76 min,"Romantic Movies, International Movies",True,76,min
+s39,Movie,Title 39,Jane Smith,"Actor M, Actor N",Unknown,2022-03-26,1997,TV-MA,7 Seasons,"International Movies, Comedies",True,7,Seasons
+s40,Movie,Title 40,Unknown Director,"Actor N, Actor O",Canada,2019-01-24,2017,TV-PG,178 min,"Action, Romantic Movies",True,178,min
+s41,Movie,Title 41,Unknown Director,"Actor O, Actor P",India,2022-04-16,2017,PG-13,154 min,"Comedies, Dramas",True,154,min
+s42,Movie,Title 42,Jane Smith,"Actor P, Actor Q",USA,2015-07-02,2016,G,121 min,"Romantic Movies, Thriller",True,121,min
+s43,Movie,Title 43,Alex Johnson,"Actor Q, Actor R",USA,2018-12-27,2006,TV-14,109 min,"Romantic Movies, Action",True,109,min
+s44,TV Show,Title 44,Jane Smith,"Actor R, Actor S",India,2016-08-12,1998,UR,3 Seasons,"Kids' TV, Thriller",True,3,Seasons
+s45,Movie,Title 45,Jane Smith,"Actor S, Actor T",UK,2015-03-01,2022,TV-14,135 min,"Dramas, Kids' TV",True,135,min
+s46,Movie,Title 46,John Doe,"Actor T, Actor U",Nigeria,2019-03-11,2009,TV-MA,60 min,"Kids' TV, Romantic Movies",True,60,min
+s47,Movie,Title 47,Unknown,"Actor U, Actor V",UK,2015-12-03,2002,TV-Y7,81 min,"Kids' TV, Thriller",True,81,min
+s48,Movie,Title 48,Unknown,"Actor V, Actor W",USA,2016-01-08,2017,R,5 Seasons,"Comedies, Dramas",True,5,Seasons
+s49,Movie,Title 49,John Doe,"Actor W, Actor X",USA,2019-11-12,2018,R,1 Seasons,"Action, Thriller",True,1,Seasons
+s50,Movie,Title 50,Jane Smith,"Actor X, Actor Y",India,2016-12-14,2002,PG,119 min,"Romantic Movies, Thriller",True,119,min
+s51,TV Show,Title 51,Ridley Scott,"Actor Y, Actor Z",France,2017-03-18,1995,TV-14,5 Seasons,"Thriller, Action",True,5,Seasons
+s52,TV Show,Title 52,Jane Smith,"Actor Z, Actor [",UK,2016-07-17,2007,TV-14,3 Seasons,"Thriller, Romantic Movies",True,3,Seasons
+s53,TV Show,Title 53,John Doe,"Actor A, Actor B",Germany,2016-08-26,1994,R,85 min,"Dramas, International Movies",True,85,min
+s54,TV Show,Title 54,Alex Johnson,"Actor B, Actor C",India,2017-10-02,2014,G,148 min,"Documentaries, Kids' TV",True,148,min
+s55,Movie,Title 55,Unknown Director,"Actor C, Actor D",Unknown,2018-09-07,1991,TV-MA,148 min,"Dramas, Kids' TV",True,148,min
+s56,TV Show,Title 56,Jane Smith,"Actor D, Actor E",USA,2016-10-21,1999,R,131 min,"Action, Documentaries",True,131,min
+s57,Movie,Title 57,Unknown,"Actor E, Actor F",India,2018-11-24,2019,R,73 min,"International Movies, Action",True,73,min
+s58,Movie,Title 58,Unknown,"Actor F, Actor G",UK,2019-09-21,1994,PG,97 min,"Thriller, Dramas",True,97,min
+s59,Movie,Title 59,Jane Smith,"Actor G, Actor H",USA,2016-09-04,2022,PG-13,122 min,"Dramas, International Movies",True,122,min
+s60,Movie,Title 60,Unknown,"Actor H, Actor I",Nigeria,2022-05-09,1990,TV-PG,84 min,"Action, Romantic Movies",True,84,min
+s61,Movie,Title 61,Jane Smith,"Actor I, Actor J",India,2017-03-17,2007,TV-14,170 min,"Action, Documentaries",True,170,min
+s62,Movie,Title 62,Unknown,"Actor J, Actor K",Japan,2015-04-18,2021,TV-MA,137 min,"Action, International Movies",True,137,min
+s63,TV Show,Title 63,Unknown,"Actor K, Actor L",USA,2021-07-24,2000,R,3 Seasons,"Dramas, Romantic Movies",True,3,Seasons
+s64,Movie,Title 64,Unknown,"Actor L, Actor M",UK,2015-05-12,2010,PG,129 min,"Thriller, International Movies",True,129,min
+s65,Movie,Title 65,John Doe,"Actor M, Actor N",Canada,2021-07-13,2015,G,66 min,"International Movies, Comedies",True,66,min
+s66,Movie,Title 66,Chris Nolan,"Actor N, Actor O",Germany,2015-09-03,2014,PG,101 min,"International Movies, Dramas",True,101,min
+s67,Movie,Title 67,Jane Smith,"Actor O, Actor P",Australia,2020-01-17,2011,TV-14,7 Seasons,"Documentaries, Thriller",True,7,Seasons
+s68,TV Show,Title 68,John Doe,"Actor P, Actor Q",France,2015-04-16,2016,UR,92 min,"Comedies, Documentaries",True,92,min
+s69,Movie,Title 69,John Doe,"Actor Q, Actor R",Australia,2017-06-13,2002,TV-14,162 min,"Romantic Movies, Dramas",True,162,min
+s70,TV Show,Title 70,Unknown,"Actor R, Actor S",UK,2018-03-17,2022,NC-17,88 min,"Action, Thriller",True,88,min
+s71,TV Show,Title 71,Unknown,"Actor S, Actor T",Unknown,2017-12-09,1990,TV-MA,1 Seasons,"Thriller, Dramas",True,1,Seasons
+s72,Movie,Title 72,John Doe,"Actor T, Actor U",Unknown,2021-12-09,2010,TV-Y,86 min,"Documentaries, International Movies",True,86,min
+s73,Movie,Title 73,Unknown,"Actor U, Actor V",Canada,2021-12-14,1995,TV-14,127 min,"International Movies, Dramas",True,127,min
+s74,TV Show,Title 74,Jane Smith,"Actor V, Actor W",France,2016-04-19,2017,TV-PG,69 min,"Comedies, International Movies",True,69,min
+s75,TV Show,Title 75,Unknown,"Actor W, Actor X",Japan,2017-05-05,2006,PG,133 min,"International Movies, Kids' TV",True,133,min
+s76,TV Show,Title 76,John Doe,"Actor X, Actor Y",Canada,2018-12-25,1994,TV-MA,97 min,"Comedies, International Movies",True,97,min
+s77,TV Show,Title 77,Unknown,"Actor Y, Actor Z",Australia,2018-11-21,2020,TV-MA,106 min,"International Movies, Documentaries",True,106,min
+s78,Movie,Title 78,Jane Smith,"Actor Z, Actor [",Canada,2022-05-23,1994,TV-PG,147 min,"Romantic Movies, Thriller",True,147,min
+s79,Movie,Title 79,Ridley Scott,"Actor A, Actor B",Australia,2019-09-07,1992,TV-Y7,74 min,"Kids' TV, Dramas",True,74,min
+s80,Movie,Title 80,John Doe,"Actor B, Actor C",USA,2016-05-10,2012,TV-PG,64 min,"Action, Comedies",True,64,min
+s81,TV Show,Title 81,Jane Smith,"Actor C, Actor D",Unknown,2021-07-14,1999,PG,127 min,"Thriller, Dramas",True,127,min
+s82,Movie,Title 82,John Doe,"Actor D, Actor E",USA,2017-10-05,1999,G,61 min,"International Movies, Kids' TV",True,61,min
+s83,Movie,Title 83,Ridley Scott,"Actor E, Actor F",Germany,2017-07-11,2008,R,3 Seasons,"Documentaries, Comedies",True,3,Seasons
+s84,Movie,Title 84,Chris Nolan,"Actor F, Actor G",France,2018-02-15,2006,R,95 min,"International Movies, Comedies",True,95,min
+s85,Movie,Title 85,Jane Smith,"Actor G, Actor H",Japan,2016-09-10,2010,TV-MA,86 min,"Comedies, Documentaries",True,86,min
+s86,Movie,Title 86,Unknown,"Actor H, Actor I",Australia,2019-12-17,2003,TV-PG,70 min,"International Movies, Kids' TV",True,70,min
+s87,TV Show,Title 87,Chris Nolan,"Actor I, Actor J",Japan,2020-06-07,1998,TV-MA,163 min,"Dramas, Kids' TV",True,163,min
+s88,Movie,Title 88,Unknown,"Actor J, Actor K",Australia,2015-08-10,1990,TV-14,131 min,"Action, Kids' TV",True,131,min
+s89,TV Show,Title 89,Unknown,"Actor K, Actor L",UK,2016-02-27,2002,TV-Y7,149 min,"Documentaries, Comedies",True,149,min
+s90,Movie,Title 90,Jane Smith,"Actor L, Actor M",Canada,2019-02-05,1993,PG,71 min,"Dramas, Romantic Movies",True,71,min
+s91,Movie,Title 91,John Doe,"Actor M, Actor N",Germany,2017-05-06,1990,TV-14,163 min,"Documentaries, Romantic Movies",True,163,min
+s92,TV Show,Title 92,Chris Nolan,"Actor N, Actor O",Unknown,2019-08-16,2021,TV-MA,148 min,"Dramas, Action",True,148,min
+s93,TV Show,Title 93,Ridley Scott,"Actor O, Actor P",Australia,2018-01-22,2017,R,4 Seasons,"Romantic Movies, Documentaries",True,4,Seasons
+s94,Movie,Title 94,Unknown,"Actor P, Actor Q",Japan,2015-01-07,2020,PG-13,167 min,"Dramas, Romantic Movies",True,167,min
+s95,TV Show,Title 95,Jane Smith,"Actor Q, Actor R",Germany,2020-04-04,1997,R,127 min,"Dramas, Comedies",True,127,min
+s96,Movie,Title 96,Jane Smith,"Actor R, Actor S",Nigeria,2019-12-19,2015,TV-14,96 min,"International Movies, Kids' TV",True,96,min
+s97,Movie,Title 97,Unknown,"Actor S, Actor T",Nigeria,2021-12-22,1992,PG-13,165 min,"Dramas, Thriller",True,165,min
+s98,Movie,Title 98,Chris Nolan,"Actor T, Actor U",USA,2016-11-10,2001,TV-14,90 min,"Kids' TV, Romantic Movies",True,90,min
+s99,Movie,Title 99,Chris Nolan,"Actor U, Actor V",Unknown,2020-03-07,1990,TV-PG,177 min,"Thriller, Romantic Movies",True,177,min
+s100,Movie,Title 100,Unknown,"Actor V, Actor W",UK,2019-03-13,1994,TV-14,6 Seasons,"Comedies, Dramas",True,6,Seasons
