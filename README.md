@@ -25,7 +25,7 @@ This project provides a comprehensive analysis of Netflix shows and movies data 
 
 ## How to Use
 
-### 🔹 Python Analysis
+###  Python Analysis
 1. Ensure you have Python installed with the required libraries:  
    ```bash
    pip install pandas numpy matplotlib seaborn
@@ -51,7 +51,7 @@ This project provides a comprehensive analysis of Netflix shows and movies data 
 
 ---
 
-### 🔹 R Analysis
+###  R Analysis
 
 1. Ensure you have R installed with the required packages:
 
@@ -78,7 +78,7 @@ This project provides a comprehensive analysis of Netflix shows and movies data 
 
 ## Output Files
 
-### 📌 Python Outputs
+###  Python Outputs
 
 * `Netflix_shows_movies_cleaned.csv`: Cleaned dataset
 * `type_distribution.png`: Movies vs TV Shows distribution
@@ -88,7 +88,7 @@ This project provides a comprehensive analysis of Netflix shows and movies data 
 * `duration_analysis.png`: Duration analysis by content type
 * `analysis_output.txt`: Summary output from Python analysis
 
-### 📌 R Outputs
+###  R Outputs
 
 * `most_watched_genres_r.png`: Top genres visualization
 * `ratings_distribution_r.png`: Ratings distribution
