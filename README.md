@@ -1,4 +1,3 @@
-````markdown
 # Netflix Data Visualization Analysis
 
 This project provides a comprehensive analysis of Netflix shows and movies data using both **Python** and **R** for data visualization.
@@ -14,7 +13,7 @@ This project provides a comprehensive analysis of Netflix shows and movies data 
   - Ratings distribution  
 - **R Integration**: Implementing visualizations in R  
 
---
+---
 
 ## Files Included
 - `netflix_analysis.py`: Python implementation of the analysis  
@@ -26,22 +25,23 @@ This project provides a comprehensive analysis of Netflix shows and movies data 
 
 ## How to Use
 
-### Python Analysis
+### 🔹 Python Analysis
 1. Ensure you have Python installed with the required libraries:  
    ```bash
    pip install pandas numpy matplotlib seaborn
-````
+
 
 2. Place your Netflix data CSV file (`Netflix_shows_movies.csv`) in the same directory.
 
    * If not provided, the script will generate sample data.
+
 3. Run the Python script:
 
    ```bash
-   analysis.py
-   ```
+   python analysis.py
+   
 
-The script will:
+**The script will:**
 
 * Generate sample data if needed
 * Clean the data by handling missing values
@@ -51,7 +51,7 @@ The script will:
 
 ---
 
-### R Analysis
+### 🔹 R Analysis
 
 1. Ensure you have R installed with the required packages:
 
@@ -60,15 +60,15 @@ The script will:
    * `tidyr`
    * `readr`
 
-2. First run the Python script to generate the cleaned data.
+2. First, run the Python script to generate the cleaned data.
 
 3. Run the R script:
 
    ```bash
    Rscript analysis.R
-   ```
+   
 
-The script will:
+**The script will:**
 
 * Read the cleaned data prepared by Python
 * Create visualizations (saved as PNG files)
@@ -78,7 +78,7 @@ The script will:
 
 ## Output Files
 
-### Python Outputs
+### 📌 Python Outputs
 
 * `Netflix_shows_movies_cleaned.csv`: Cleaned dataset
 * `type_distribution.png`: Movies vs TV Shows distribution
@@ -88,7 +88,7 @@ The script will:
 * `duration_analysis.png`: Duration analysis by content type
 * `analysis_output.txt`: Summary output from Python analysis
 
-### R Outputs
+### 📌 R Outputs
 
 * `most_watched_genres_r.png`: Top genres visualization
 * `ratings_distribution_r.png`: Ratings distribution
@@ -154,12 +154,13 @@ The script will:
 
    ```bash
    python analysis.py
-   ```
+   
 
 3. Then run the R script:
 
    ```bash
    Rscript analysis.R
-   ```
+   
 
 4. Check the generated visualizations and output files.
+
